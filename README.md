@@ -1,3 +1,27 @@
-Este proyecto permite interactuar con los modelos GPT-3.5 y GPT-4 de OpenAI utilizando su API en la versión 0.28. 
-Proporciona un menú interactivo que permite seleccionar el modelo, ajustar la temperatura de respuesta y configurar el número máximo de tokens. 
-A través de esta herramienta, los usuarios pueden mantener conversaciones con los modelos, enviar mensajes y recibir respuestas en tiempo real, manejando errores de la API de manera efectiva.
+# 🧠 ChatGPT in Terminal
+
+Este proyecto permite interactuar con los modelos de lenguaje de OpenAI (como `gpt-3.5-turbo` o `gpt-4o`) directamente desde la terminal. El script está escrito en Python e incluye un menú interactivo para seleccionar modelos, ajustar parámetros como la temperatura y el límite de tokens, y mantener una conversación en tiempo real con el asistente de IA.
+
+---
+
+## 🚀 Características
+
+- Soporte para varios modelos de OpenAI.
+- Menú interactivo desde terminal.
+- Personalización de parámetros:
+  - **Temperatura** (`temperature`): control de creatividad de la IA.
+  - **Máximo de tokens** (`max_tokens`): longitud máxima de la respuesta.
+- Historial contextual de conversación.
+- Salida con comandos `exit` o `quit`.
+
+---
+
+## 📦 Requisitos
+
+- Python 3.7 o superior
+- Paquete `openai` instalado
+
+Instalación del paquete:
+
+```bash
+pip install openai
